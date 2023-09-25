@@ -8,7 +8,7 @@ public class Ejercicio2 {
 		Scanner sc = new Scanner(System.in);
 		int numero;
 		numero = sc.nextInt();
-		int p = numero + 1;
+		int p = ++numero;
 		System.out.println("Su edad el proximo año será " + p + " años");
 		sc.close();
 		
