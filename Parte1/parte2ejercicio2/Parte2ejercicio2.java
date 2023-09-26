@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Parte2ejercicio2 {
 	public static void main(String[] args) {
 		int edad;
-		String mayoría;
+		boolean mayoria;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduzca su edad");
 		edad = sc.nextInt();
-		mayoría = edad <= 18 ? "Usted es menor de edad" : "Usted es mayor de edad";
-		
-		System.out.println(mayoría);
+		mayoria = edad >= 18;
+		System.out.println("¿Es usted mayor de edad? " + mayoria);
 		sc.close();
 	}
 
