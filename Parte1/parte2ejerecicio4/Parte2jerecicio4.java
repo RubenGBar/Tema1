@@ -1,4 +1,4 @@
-package parte2jerecicio4;
+package parte2ejerecicio4;
 
 import java.util.Scanner;
 
