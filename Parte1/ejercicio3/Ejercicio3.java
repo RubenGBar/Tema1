@@ -8,10 +8,10 @@ public class Ejercicio3 {
 		Scanner sc = new Scanner(System.in);
 		int numero;
 		numero = sc.nextInt();
-		int añoActual;
-		añoActual = 2023;
+		int Actual;
+		Actual = 2023;
 		int resultado;
-		resultado = añoActual-numero;
+		resultado = Actual-numero;
 		System.out.println("Gracias, su edad es de " + resultado + " años");
 		sc.close();
 	}
